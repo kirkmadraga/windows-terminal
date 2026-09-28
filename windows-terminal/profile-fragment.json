@@ -1,0 +1,47 @@
+{
+    "profiles": [
+        {
+            "antialiasingMode": "cleartype",
+            "colorScheme": "Tokyo Night",
+            "commandline": "\"%MSYS2_ROOT%\\msys2_shell.cmd\" -defterm -here -no-start -ucrt64 -use-full-path",
+            "font": {
+                "face": "FiraCode Nerd Font",
+                "size": 10,
+                "weight": "normal"
+            },
+            "guid": "{72644b70-63f8-4348-8335-e10a9647998b}",
+            "icon": "🍎",
+            "name": "Bash",
+            "opacity": 80,
+            "padding": "12",
+            "pathTranslationStyle": "msys2",
+            "startingDirectory": "%USERPROFILE%",
+            "useAcrylic": true
+        }
+    ],
+    "schemes": [
+        {
+            "background": "#1A1B26",
+            "black": "#15161E",
+            "blue": "#7AA2F7",
+            "brightBlack": "#414868",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#9ECE6A",
+            "brightPurple": "#BB9AF7",
+            "brightRed": "#F7768E",
+            "brightWhite": "#C0CAF5",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#C0CAF5",
+            "cyan": "#7DCFFF",
+            "foreground": "#A9B1D6",
+            "green": "#9ECE6A",
+            "name": "Tokyo Night",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#33467C",
+            "white": "#A9B1D6",
+            "yellow": "#E0AF68"
+        }
+    ]
+}

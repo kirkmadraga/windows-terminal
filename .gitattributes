@@ -1,0 +1,7 @@
+# These are POSIX shell/perl scripts consumed inside MSYS2/git-bash — a CRLF
+# checkout would corrupt shebangs and the perl heredocs in .cow files.
+* text=auto eol=lf
+*.cow text eol=lf
+*.sh text eol=lf
+.bashrc text eol=lf
+.bash_profile text eol=lf
