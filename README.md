@@ -48,6 +48,22 @@ steps at the end):
 After that: fully close and reopen Windows Terminal (so it sees
 `MSYS2_ROOT`), then Settings → Startup → default profile → "Bash".
 
+## Optional packages
+
+Not needed for the setup — extra tools I use day to day. Install inside the
+UCRT64 shell:
+
+```bash
+pacman -S --needed mingw-w64-ucrt-x86_64-ffmpeg mingw-w64-ucrt-x86_64-mpv mingw-w64-ucrt-x86_64-yt-dlp mingw-w64-ucrt-x86_64-mkvtoolnix-cli
+```
+
+| Package | What it is |
+|---|---|
+| `ffmpeg` | audio/video converter |
+| `mpv` | media player |
+| `yt-dlp` | video downloader |
+| `mkvtoolnix-cli` | Matroska (.mkv) tools: `mkvmerge`, `mkvextract`, `mkvinfo`, `mkvpropedit` |
+
 ## Notes
 
 - MSYS2's `~` is set to your Windows user folder (`db_home: windows` in
